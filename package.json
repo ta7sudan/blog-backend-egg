@@ -8,6 +8,7 @@
     "declarations": true
   },
   "scripts": {
+    "prestart": "npm run tsc",
     "start": "egg-scripts start --daemon --title=egg-server-blog-backend-egg",
     "stop": "egg-scripts stop --title=egg-server-blog-backend-egg",
     "dev": "egg-bin dev",
